@@ -40,5 +40,6 @@ export const categories = {
         "southafrica",
         "italy",
         "egypt",
+        "afghanistan",
     ],
 };
