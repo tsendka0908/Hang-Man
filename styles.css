@@ -117,16 +117,12 @@ canvas {
     right: 0;
     bottom: 0;
     display: flex;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     opacity: 0;
     pointer-events: none;
     transition: 0.3s ease all;
-}
-
-.new-game-popup h2 {
-    margin: 0;
 }
 
 #new-game {
@@ -147,17 +143,6 @@ canvas {
 
 .new-game-popup h2 {
     margin: 0;
-}
-
-#new-game {
-    all: unset;
-    background-color: var(--secondary-color);
-    padding: 10px 18px;
-    border-radius: 10px;
-    border: 3px solid black;
-    cursor: pointer;
-    box-shadow: var(--box-shadow2);
-    transition: 0.3s ease all;
 }
 
 #new-game:hover {
